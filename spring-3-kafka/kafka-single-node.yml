@@ -1,8 +1,7 @@
 version: '3'
 services:
 
-#running kafka without zookeeper (using KRaft)
-#Kafka Service
+#running kafka without zookeeper
   kafka:
     image: 'bitnami/kafka:3.4'
     container_name: kafka-broker
@@ -23,8 +22,6 @@ services:
     
     ports:
       - '9092:9092'
-      
-
 
 volumes:
   kafka_data:

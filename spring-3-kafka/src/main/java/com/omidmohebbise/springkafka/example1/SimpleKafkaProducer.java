@@ -1,4 +1,4 @@
-package com.omidmohebbise.springkafka.example1.config;
+package com.omidmohebbise.springkafka.example1;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
