@@ -22,3 +22,10 @@ docker compose up -f kafka-multi-node.yml up -d
 ## Example 1: Simple producer/consumer with Spring boot
 
 The example includes three files to configure Kafka producer and consumer and publish a string as a message and receive it in the consumer listener.
+
+
+## Example 2: Use ack in consumer
+
+## Example 3: Use batch messages in consumer
+
+## Example 4: Add Exception Handler
