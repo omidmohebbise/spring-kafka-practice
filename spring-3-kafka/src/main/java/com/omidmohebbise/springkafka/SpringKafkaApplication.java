@@ -5,7 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication(
-        scanBasePackages = {"com.omidmohebbise.springkafka.example1"}
+        scanBasePackages = {
+//                "com.omidmohebbise.springkafka.example1",
+                "com.omidmohebbise.springkafka.example2"
+        }
 )
 @EnableScheduling
 public class SpringKafkaApplication {
