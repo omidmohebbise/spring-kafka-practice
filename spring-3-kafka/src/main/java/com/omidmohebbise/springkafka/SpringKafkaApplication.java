@@ -7,7 +7,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(
         scanBasePackages = {
 //                "com.omidmohebbise.springkafka.example1",
-                "com.omidmohebbise.springkafka.example2"
+//                "com.omidmohebbise.springkafka.example2",
+                "com.omidmohebbise.springkafka.example3"
         }
 )
 @EnableScheduling

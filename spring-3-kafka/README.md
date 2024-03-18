@@ -28,4 +28,8 @@ The example includes three files to configure Kafka producer and consumer and pu
 
 ## Example 3: Use batch messages in consumer
 
+In this example, I configured the consumer to poll a maximum of 5 messages (max.poll.records=5,000).
+
+So, every second, the producer sends a message, but the consumer processes the messages only when 5 items are ready in the topic.
+
 ## Example 4: Add Exception Handler
