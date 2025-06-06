@@ -1,7 +1,7 @@
-package com.omidmohebbise.springkafka.example4;
+package com.omidmohebbise.springkafka.example5;
 
 
-import com.omidmohebbise.springkafka.example4.util.FileWriteUtil;
+import com.omidmohebbise.springkafka.example5.util.FileWriteUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.omidmohebbise.springkafka.example4.KStreamConfig.*;
+import static com.omidmohebbise.springkafka.example5.KStreamConfig.*;
 
 
 @Service

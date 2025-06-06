@@ -1,4 +1,4 @@
-package com.omidmohebbise.springkafka.example4.processor;
+package com.omidmohebbise.springkafka.example5.processor;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -11,7 +11,7 @@ import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.Produced;
 import org.springframework.stereotype.Component;
 
-import static com.omidmohebbise.springkafka.example4.KStreamConfig.*;
+import static com.omidmohebbise.springkafka.example5.KStreamConfig.*;
 
 @Slf4j
 @Component

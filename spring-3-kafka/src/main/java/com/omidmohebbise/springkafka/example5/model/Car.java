@@ -1,4 +1,4 @@
-package com.omidmohebbise.springkafka.example4.model;
+package com.omidmohebbise.springkafka.example5.model;
 
 
 import lombok.AllArgsConstructor;

@@ -10,6 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //                "com.omidmohebbise.springkafka.example2"
 //                "com.omidmohebbise.springkafka.example3"
                 "com.omidmohebbise.springkafka.example4"
+//                "com.omidmohebbise.springkafka.example5"
         }
 )
 @EnableScheduling

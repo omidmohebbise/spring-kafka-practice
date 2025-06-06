@@ -1,8 +1,8 @@
-package com.omidmohebbise.springkafka.example4;
+package com.omidmohebbise.springkafka.example5;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.json.JsonMapper;
-import com.omidmohebbise.springkafka.example4.model.Car;
+import com.omidmohebbise.springkafka.example5.model.Car;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
@@ -14,7 +14,7 @@ import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.omidmohebbise.springkafka.example4.KStreamConfig.INPUT_CARS_TOPIC;
+import static com.omidmohebbise.springkafka.example5.KStreamConfig.INPUT_CARS_TOPIC;
 
 @Service
 @RequiredArgsConstructor

@@ -16,8 +16,9 @@ public class ProducerEx3 {
     private final AtomicInteger counter = new AtomicInteger(0);
 
     private final KafkaTemplate<String, String> kafkaTemplate;
+
     @Scheduled(fixedRate = 1000)
-    public void produceMessage() {
+    public void produceMessage1() {
         String message = String.format(EX_3_PRODUCER_MESSAGE_ID, counter.incrementAndGet()) ;
         kafkaTemplate.send(EXAMPLE3_KAFKA_TOPIC,message);
     }

@@ -1,4 +1,4 @@
-package com.omidmohebbise.springkafka.example4;
+package com.omidmohebbise.springkafka.example5;
 
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import org.springframework.context.annotation.Bean;
