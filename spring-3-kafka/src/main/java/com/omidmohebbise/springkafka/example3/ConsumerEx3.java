@@ -7,17 +7,17 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import static com.omidmohebbise.springkafka.example3.KafkaConfiguration.EXAMPLE3_GROUP_ID;
-import static com.omidmohebbise.springkafka.example3.KafkaConfiguration.EXAMPLE3_KAFKA_TOPIC;
+import static com.omidmohebbise.springkafka.example3.ConfigurationEx3.EXAMPLE3_GROUP_ID;
+import static com.omidmohebbise.springkafka.example3.ConfigurationEx3.EXAMPLE3_KAFKA_TOPIC;
 
 @Service
 @Log4j2
 @RequiredArgsConstructor
-public class BatchMessageListenerImpl  {
+public class ConsumerEx3 {
 
     @KafkaListener(topics = EXAMPLE3_KAFKA_TOPIC, groupId = EXAMPLE3_GROUP_ID)
     public void consumeBatchOfMessages(List<String> messages) throws InterruptedException {
-        log.info("Got messages : {}", messages);
+        log.info("Got [{}] messages : {}", messages.size(), messages);
         Thread.sleep(5000);
     }
 }

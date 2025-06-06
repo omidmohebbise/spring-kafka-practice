@@ -9,12 +9,12 @@ import java.time.LocalDateTime;
 
 @Service
 @RequiredArgsConstructor
-public class SimpleKafkaProducer {
+public class ProducerEx1 {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
 
     public void sendMessage(String message) {
-        kafkaTemplate.send(KafkaConfiguration.EXAMPLE1_KAFKA_TOPIC, message);
+        kafkaTemplate.send(ConfigurationEx1.EXAMPLE1_KAFKA_TOPIC, message);
     }
 
     @Scheduled(fixedRate = 1000)

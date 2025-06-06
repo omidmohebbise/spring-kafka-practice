@@ -14,7 +14,7 @@ import org.springframework.kafka.config.TopicBuilder;
 import java.util.Map;
 
 @Configuration
-public class KafkaConfiguration {
+public class ConfigurationEx1 {
 
     public static final String EXAMPLE1_KAFKA_TOPIC = "example1-kafka-topic";
 

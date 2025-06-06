@@ -20,7 +20,7 @@ import org.springframework.kafka.listener.ContainerProperties;
 import java.util.Map;
 
 @Configuration
-public class KafkaConfiguration {
+public class ConfigurationEx2 {
 
     public static final String EXAMPLE2_KAFKA_TOPIC = "example2-kafka-topic";
 

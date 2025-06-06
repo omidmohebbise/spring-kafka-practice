@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class KafkaConfiguration {
+public class ConfigurationEx3 {
 
     public static final String EXAMPLE3_KAFKA_TOPIC = "example3-kafka-batch-consumer-topic";
 
